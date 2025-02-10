@@ -1,0 +1,91 @@
+.loading-txt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60vh;
+}
+.course-details {
+    font-family: "Arial", sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    
+    .header {
+      text-align: center;
+      background: #6c63ff;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      
+      .instructor {
+        font-size: 18px;
+        margin-top: 5px;
+      }
+    }
+  
+    .course-info {
+      background: #f9f9f9;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+  
+      p {
+        margin: 5px 0;
+        font-size: 16px;
+      }
+    }
+  
+    .prerequisites, .syllabus {
+      margin-top: 20px;
+  
+      h2 {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+  
+        li {
+          background: #eef;
+          padding: 10px;
+          border-radius: 5px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  
+    .syllabus {
+      .syllabus-item {
+        margin-bottom: 10px;
+        background: #f0f0f0;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+  
+        .syllabus-header {
+          display: flex;
+          justify-content: space-between;
+          font-weight: bold;
+        }
+  
+        .syllabus-content {
+          margin-top: 8px;
+          background: #dcdcff;
+          padding: 8px;
+          border-radius: 5px;
+        }
+  
+        button {
+          background: none;
+          border: none;
+          font-size: 16px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  

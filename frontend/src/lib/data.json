@@ -1,0 +1,134 @@
+{
+  "enrolledCourses": [
+    {
+      "_id": "IEI-JDBFB-IFF",
+      "title": "Basic Computer",
+      "instructor": "John Doe",
+      "description": "This batch contains the lectures of Basic Computers.",
+      "access": "Access until 04 May 2026",
+      "progress": 53,
+      "image": "https://essinstitute.in/wp-content/uploads/2023/12/Basic-Computer-Course-1536x1011.jpg"
+    },
+    {
+      "_id": "DJCD-IDBD-JDD",
+      "title": "Video Editing",
+      "instructor": "Sangam Shrestha",
+      "description": "This batch contains the lectures of Video Editing.",
+      "access": "Access until 29 Apr 2026",
+      "progress": 88,
+      "image": "https://essinstitute.in/wp-content/uploads/2023/10/Video-Editing-Course-1536x1011.jpeg"
+    },
+    {
+      "_id": "HDD-HDSS-PLO",
+      "title": "Graphic Designing",
+      "instructor": "Georgie",
+      "description": "This batch contains the lectures of Graphic Designing.",
+      "access": "Access until 25 Dec 2025",
+      "progress": 66,
+      "image": "https://essinstitute.in/wp-content/uploads/2023/11/Graphic-designing-1536x1011.jpg"
+    }
+  ],
+  "courses": [
+    {
+      "_id": "-OI_-vuYU9B77tLLRtrn",
+      "title": "Basic Computer",
+      "instructor": "John Doe",
+      "description": "This batch contains the lectures of Basic Computers.",
+      "image": "https://essinstitute.in/wp-content/uploads/2023/12/Basic-Computer-Course-1536x1011.jpg",
+      "enrollmentStatus": "Open",
+      "duration": "3 months",
+      "schedule": "Monday & Wednesday - 5:00 PM to 7:00 PM",
+      "location": "Online",
+      "Prerequisites": "Laptop",
+      "syllabus": [
+        { "week": 1, "topic": "Introduction to Computers", "expanded": false },
+        { "week": 2, "topic": "Operating Systems & File Management", "expanded": false },
+        { "week": 3, "topic": "Microsoft Office & Internet Basics", "expanded": false }
+      ]
+    },
+    {
+      "_id": "-OI_6ThpueQOM2du43a0",
+      "title": "Multimedia",
+      "instructor": "Sangam Shrestha",
+      "description": "This batch contains the lectures of Video Editing.",
+      "image": "https://essinstitute.in/wp-content/uploads/2023/10/Video-Editing-Course-1536x1011.jpeg",
+      "enrollmentStatus": "Open",
+      "duration": "4 months",
+      "schedule": "Tuesday & Thursday - 6:00 PM to 8:00 PM",
+      "location": "Offline (Campus A)",
+      "Prerequisites": "Basic Computer Knowledge",
+      "syllabus": [
+        { "week": 1, "topic": "Introduction to Multimedia", "expanded": false },
+        { "week": 2, "topic": "Graphic Design & Image Editing", "expanded": false },
+        { "week": 3, "topic": "Video Editing & Animation", "expanded": false }
+      ]
+    },
+    {
+      "_id": "-OI_6bG9j9XiGj_I1B48",
+      "title": "Graphic Designing",
+      "instructor": "Georgie",
+      "description": "This batch contains the lectures of Graphic Designing.",
+      "image": "https://essinstitute.in/wp-content/uploads/2023/11/Graphic-designing-1536x1011.jpg",
+      "enrollmentStatus": "Closed",
+      "duration": "5 months",
+      "schedule": "Monday & Friday - 4:00 PM to 6:00 PM",
+      "location": "Online",
+      "Prerequisites": "Basic Photoshop & Illustrator Knowledge",
+      "syllabus": [
+        { "week": 1, "topic": "Introduction to Graphic Design", "expanded": false },
+        { "week": 2, "topic": "Typography & Color Theory", "expanded": false },
+        { "week": 3, "topic": "Adobe Photoshop & Illustrator", "expanded": false }
+      ]
+    },
+    {
+      "_id": "-OI_6lWc2nmtevjNQCzY",
+      "title": "C, C++",
+      "instructor": "Neil Bohr",
+      "description": "This batch contains the lectures of C, C++.",
+      "image": "https://essinstitute.in/wp-content/uploads/2023/11/CC-1536x1011.jpg",
+      "enrollmentStatus": "Open",
+      "duration": "6 months",
+      "schedule": "Saturday & Sunday - 2:00 PM to 4:00 PM",
+      "location": "Offline (Campus B)",
+      "Prerequisites": "Basic Computer Knowledge",
+      "syllabus": [
+        { "week": 1, "topic": "Introduction to C Programming", "expanded": false },
+        { "week": 2, "topic": "Functions & Pointers", "expanded": false },
+        { "week": 3, "topic": "Object-Oriented Programming in C++", "expanded": false }
+      ]
+    },
+    {
+      "_id": "-OI_6lWc2nmtevjNQCyY",
+      "title": "Spoken English",
+      "instructor": "David Johnson",
+      "description": "This batch contains the lectures of Spoken English.",
+      "image": "https://essinstitute.in/wp-content/uploads/2023/11/spoken-English-1-1536x1011.jpg",
+      "enrollmentStatus": "Open",
+      "duration": "2 months",
+      "schedule": "Daily - 7:00 PM to 8:00 PM",
+      "location": "Online",
+      "Prerequisites": "Basic English Knowledge",
+      "syllabus": [
+        { "week": 1, "topic": "Grammar & Sentence Structure", "expanded": false },
+        { "week": 2, "topic": "Pronunciation & Vocabulary Building", "expanded": false },
+        { "week": 3, "topic": "Conversational Skills & Public Speaking", "expanded": false }
+      ]
+    },
+    {
+      "_id": "-OI_6lWc2nmtevjNQCzP",
+      "title": "No Thumbnail Preview",
+      "instructor": "Dipesh Shrestha",
+      "description": "Preview if Thumbnail is missing.",
+      "image": null,
+      "enrollmentStatus": "Open",
+      "duration": "4 months",
+      "schedule": "Monday & Thursday - 5:00 PM to 7:00 PM",
+      "location": "Online",
+      "Prerequisites": "None",
+      "syllabus": [
+        { "week": 1, "topic": "Placeholder Week 1", "expanded": false },
+        { "week": 2, "topic": "Placeholder Week 2", "expanded": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+.layout{
+    .dashboard-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+        padding: 15px;
+        margin: 10px 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        .highlight {
+            font-size: 24px;
+            color: orange;
+            }
+          nav {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            a {
+              text-decoration: none;
+              color: #333;
+              font-weight: bold;
+            }
+        
+          }
+      }
+    .content{
+        max-height: 90vh;
+        overflow-y: scroll;
+        -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer/Edge */
+        scrollbar-width: none; /* Hide scrollbar in Firefox */
+    
+        &::-webkit-scrollbar {
+            width: 0; /* Hide scrollbar in WebKit browsers (Chrome, Safari, etc.) */
+        }
+      }
+}
